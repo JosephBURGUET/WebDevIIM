@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap');
+
+body:before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    inset: 0;
+    background:linear-gradient(90deg,black,red,blue,rgb(0, 255, 0),yellow,black) left/300% 100%;
+    animation:f 4s infinite alternate linear;
+}
+  @keyframes f {
+    100% {background-position:right}
+}
+
+
+
+.top img {
+    position: absolute;
+    top: 0px; left: 0px;
+    margin: auto;
+    width: 100vw;
+}
+
+.top h1 {
+  background:-webkit-linear-gradient(top, red 30%, yellow 70%);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+}
+.top h1 {
+    font-size: 300%;
+    font-family: "Silkscreen";
+    position: absolute;
+    top: 15px; left: 65px  
+} 
+
+.top h2 {
+    color:white;
+    font-family: "Silkscreen";
+    position: absolute;
+    top: 40px; right: 40px;
+}
+
+
+
+.section {
+    text-align: center;
+    color: black;
+    margin-top: 220px;
+    font-family:'Golos Text'
+}
+.bouton {
+    font-family: "Silkscreen";
+}
+
+
+
+.footer {
+    width: 100vw;
+    text-align: center;
+    background-color:#000 ;
+    position: absolute;
+    bottom: 0vh; left: 0px;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
